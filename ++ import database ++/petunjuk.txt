@@ -1,0 +1,2 @@
+1. Buat database baru bernama "jbb"
+2. Import file .sql di folder ini ke database yang telah dibuat
