@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <!-- penjelasan tujuan kelompok dan para member -->
+    <div class="container">
+      <section class="sec-01">
+        <div class="container">
+          <div>
+            <form action="index.php">
+              <button class="btnStyle" type="submit">Kembali Ke Beranda</button>
+            </form>
+          </div> 
+          <h2 class="main-title">About Us</h2>
+          <div class="content">
+            <div class="image">
+              <img src="img/mgt.png" alt="">
+            </div>
+            <div class="text-box">
+              <h3>Nawasena</h3>
+              <p>Nawasena merupakan aplikasi portal nasional untuk membeli dan menjual 
+                bisnis dan aset komersial bertujuan untuk memudahkan para investor atau 
+                pengusaha muda yang ingin membangun bisnis tetapi tidak dari 0.  
+                Nawasena memiliki fitur-fitur yang memudahkan para pengguna dalam mencari 
+                artikel-artikel terkait bisnis, ada costumer service untuk memberikan kenyamanan 
+                sehingga pengalaman mereka bertransaksi menjadi lebih baik dan berharap memenuhi ekspektasi pengguna</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-02">
+        <div class="container">
+          <h3 class="section-title">Anggota Tim</h3>
+          <div class="content">
+            <div class="image">
+              <img src="img/sui.jpeg" alt="">
+            </div>
+            <div class="info">
+              <h4 class="info-title">Rian Hilmi Hidayatullah</h4>
+              <p><h3>NIM : 21523164</h3></p>
+              <p><div class="media-icons"><a href="https://www.instagram.com/rianhilmi_" class="icon"><i class="fab fa-instagram">  @rianhilmi_</i></a></div></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-02">
+        <div class="container">
+          <h3 class="section-title"></h3>
+          <div class="content">
+            <div class="info">
+              <h4 class="info-title">Abhirama Aji Mahardhika</h4>
+              <p><h3>NIM : 21523168</h3></p>
+              <p><div class="media-icons"><a href="https://www.instagram.com/abhiramaajim" class="icon"><i class="fab fa-instagram">  @abhiramaajim</i></a></div></p>
+            </div>
+            <div class="image">
+              <img src="img/abi.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-02">
+        <div class="container">
+          <h3 class="section-title"></h3>
+          <div class="content">
+            <div class="image">
+              <img src="img/maul.jpeg" alt="">
+            </div>
+            <div class="info">
+              <h4 class="info-title">Maulana Rizky Richardy</h4>
+              <p><h3>NIM : 21523161</h3></p>
+              <p><div class="media-icons"><a href="https://www.instagram.com/kyiza.ky" class="icon"><i class="fab fa-instagram">  @kyiza.ky</i></a></div></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-02">
+        <div class="container">
+          <h3 class="section-title"></h3>
+          <div class="content">
+            <div class="info">
+              <h4 class="info-title">Zaky Abiyyu Andri</h4>
+              <p><h3>NIM : 21523086</h3></p>
+              <p><div class="media-icons"><a href="https://www.instagram.com/zakyabiyyu20039" class="icon"><i class="fab fa-instagram">  @zakyabiyyu20039</i></a></div></p>
+            </div>
+            <div class="image">
+              <img src="img/zaky.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-02">
+        <div class="container">
+          <h3 class="section-title"></h3>
+          <div class="content">
+            <div class="image">
+              <img src="img/daffa.jpeg" alt="">
+            </div>
+            <div class="info">
+              <h4 class="info-title">Daffa Sahad Aufa</h4>
+              <p><h3>NIM : 20523038</h3></p>
+              <p><div class="media-icons"><a href="https://www.instagram.com/daffashd" class="icon"><i class="fab fa-instagram">  @daffashd</i></a></div></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-03">
+        <div class="container">
+          <h3 class="section-title">Lorem Ipsum</h3>
+          <div class="content">
+            
+            <div class="image">
+              <img src="img/img3.jpg" alt="">
+            </div>
+          </div>
+          <div class="media-icons">
+            <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+
+    <script>
+      // <!--  js buat animasi delay ketika dibuka dan akan muncul satu persatu ketika discroll -->//
+      ScrollReveal({
+        //reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+      
+      ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
+      ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+      ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+      ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+      ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });
+      ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
+    </script>
+
+  </body>
+</html>

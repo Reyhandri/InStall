@@ -1,0 +1,272 @@
+.row-product{
+	margin: 0;
+	padding: 5px;
+	padding-top: 16px;
+}
+.img-bottom{
+  border-radius: 5px;
+  width: calc(30px + 2vw);
+}
+.h3-header{
+  font-size: calc(20px+0.5vw);
+  font-weight: bold;
+}
+.button {
+ color: #ecf0f1;
+ font-size: 17px;
+ background-color: #c62298;
+ border: 1px solid #ffffff;
+ border-radius: 5px;
+ padding: 10px;
+ box-shadow: 0px 6px 0px #787878;
+ transition: all 50ms;
+ /* width: 200px; */
+ padding: 5px 20px;
+ font-size: calc(14px + 0.5vw);
+}
+
+.button:active {
+ box-shadow: 0px 2px 0px #787878;
+ position: relative;
+ top: 2px;
+}
+
+.buttonAjukan {
+  color: #ecf0f1;
+  font-size: 17px;
+  background-color: #c62298;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #787878;
+  transition: all 50ms;
+  /* width: 200px; */
+  padding: 5px 20px;
+  font-size: calc(14px + 0.5vw);
+}
+
+.buttonAjukan:active {
+  box-shadow: 0px 2px 0px #787878;
+  position: relative;
+  top: 2px;
+ }
+
+html, body{
+  min-height: 100%;
+  height: 100%;
+  font-size: calc(10px + 0.5vw);
+}
+.form-control{
+	width: 350px;
+}
+
+.container .card{
+  position: relative;
+  background-color: #f8f9fa;
+  border-style: none;
+}
+
+.container .card .face{
+  width:300px;
+  height: 200px;
+  transition:.4s;
+  
+}
+
+.container .card .face.face1{
+  position: relative;
+  background: #c62298;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  transform: translateY(0);
+}
+
+.container .card .face.face1 .content{
+  opacity: .2;
+  transition:  0.5s;
+  text-align: center;
+}
+
+.container .card:hover .face.face1 .content{
+  opacity: 1;
+ 
+}
+
+.container .card .face.face1 .content i{
+  font-size: 3em;
+  color: white;
+}
+
+.container .card .face.face1 .content h3{
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+
+.container .card .face.face1 .content a{
+   transition: .5s;
+}
+
+.container .card .face.face2{
+   position: relative;
+   background: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+  box-sizing: border-box;
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+
+
+}
+
+.container .card .face.face2 .content p, a{
+  font-size: 10pt;
+  margin: 0 ;
+  padding: 0;
+  color:#c62298;
+}
+
+.container .card .face.face2 .content a{
+  text-decoration:none;
+  color: #c62298;
+  box-sizing: border-box;
+  outline : 1px dashed #c62298;
+  padding: 10px;
+  margin: 15px 0 0;
+  display: inline-block;
+}
+
+.container .card .face.face2 .content a:hover{
+  background: #c62298 ;
+  color: whitesmoke; 
+}
+
+
+.bckBtn {
+  color: #ecf0f1;
+  font-size: 17px;
+  background-color: #c62298;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #787878;
+  transition: all 50ms;
+  width: 50px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.bckBtn:active {
+  box-shadow: 0px 2px 0px #787878;
+  position: absolute;
+  top: 6%;
+ }
+ 
+.popupBase {
+  background: #c62298;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputDiv {
+  display: flex;
+  float: left;
+  width: 100%;
+}
+
+.btnDiv {
+  display: flex;
+}
+
+.open-popup {
+  visibility: visible;
+}
+
+.popup-content {
+  width: 500px;
+  background-color: white;
+  border-radius: 6px;
+  border-style: groove;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1) ;
+  text-align: center;
+  padding: 0 30px 30px;
+  color: black;
+  box-shadow: 0 2px 5px #c62298;
+  transition: transform 0.4s, top 0.4s;
+  visibility: hidden;
+  display: block;
+}
+
+
+.open-popup-content{
+  position: absolute;
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1) ;
+  width: 80%;
+  height: 80%;
+}
+
+
+.popup-content img {
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px #c62298;
+}
+
+.popup-content h3 {
+  font-size: 28px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+#badan{
+  min-height: 100%;
+  height: 100%;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 498) {
+  .inputDiv {
+    display: none;
+    width: auto;
+    width: 100%;
+  }
+
+  .btnDiv {
+    float: left;
+    display: none;
+    width: 100%;
+  }
+}
